@@ -17,7 +17,7 @@ A practice project: A console application for basic name management (add, list, 
 * **Console Interface:** Offers straightforward navigation through an interactive menu.
 ---
 
-## **Tecnologías Utilizadas**
+## **Technologies Used**
 
 
 * [Python 3.x](https://www.python.org/downloads/) 
