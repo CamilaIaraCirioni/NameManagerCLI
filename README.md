@@ -1,5 +1,5 @@
 # NameManagerCLI
-[![Status: Practice Project](https://img.shields.io/badge/Status-Practice%20Project-blue.svg)](https://github.com/your-username/name-manager-cli/pulse)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status: Practice Project](https://img.shields.io/badge/Status-Practice%20Project-blue.svg)](https://github.com/CamilaIaraCirioni/NameManagerCLI/pulse)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ---
 
 ## **Description**
