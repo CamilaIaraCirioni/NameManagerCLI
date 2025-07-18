@@ -92,7 +92,7 @@ class Students:
             if self.validate_name(name):
                 return name   
             else: 
-                print("\nIncorrecto. Solo letras.")  
+                print("\nInvalid input. Only letters allowed.")  
     
     def get_list(self):
         """ 
@@ -111,14 +111,14 @@ class Students:
             for student in students:
                 print(f"- {student}")   
         else:
-            print("Lista vacia.")  
+            print("The list is empty.")  
 
     def search_students(self):
-        name = self.get_valid_name("Ingrese nombre a buscar: ")
+        name = self.get_valid_name("Enter name to search: ")
         if name in self.names:
-            print(f"\n{name} fue encontrado.") 
+            print(f"\n{name} was found.") 
         else:
-            print(f"\n{name} no fue encontrado")
+            print(f"\n{name} not found.")
 
 
     def get_old_name(self):
