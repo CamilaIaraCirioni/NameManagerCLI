@@ -155,15 +155,15 @@ class Students:
         if old_name and new_name:
             self.names.remove(old_name)
             self.names.add(new_name)
-            print("\n Modificado correctamente")
+            print("\n Successfully modified")
         else:
-            print("\n No se realizo ninguna modificacion")
+            print("\n No changes were made")
 
 
  
 
     def exit_program(self):
-        print("Finalizar programa")
+        print("Exiting program")
         self.exit = True
 
 
