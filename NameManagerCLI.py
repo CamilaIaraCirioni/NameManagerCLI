@@ -126,7 +126,7 @@ class NameManagement:
         return old_name
 
     def get_new_name(self):
-        new_name = self.get_valid_name("Enter new name")
+        new_name = self.get_valid_name("Enter new name: ")
         return new_name
 
     def validate_old_and_new_names(self):
