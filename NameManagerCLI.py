@@ -1,6 +1,6 @@
 # Program
 
-class Students:
+class NameManagement:
     """
     Manages a collection of student names and provides a simple CLI menu,
     """
@@ -24,10 +24,10 @@ class Students:
         """
         while True:
             try:
-                option = int(input("\nIngrese una opcion del 1 al 5: "))
+                option = int(input("\nChoose an option between 1 and 5: "))
                 return option
             except ValueError:
-                print("Porfavor, ingrese un numero")
+                print("Only numbers allowed. Please try again.")
 
     def validate_option(self):
         """
@@ -168,11 +168,11 @@ class Students:
 
 
 def start_menu():
-    student = Students()
-    while not student.exit:
-        student.display_menu()
-        student.validate_option()
-        student.handle_menu_action()
+    name = NameManagement()
+    while not name.exit:
+        name.display_menu()
+        name.validate_option()
+        name.handle_menu_action()
 
 
 try:
