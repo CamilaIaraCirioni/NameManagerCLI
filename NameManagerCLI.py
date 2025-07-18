@@ -38,7 +38,7 @@ class Students:
             self.option = self.get_option()
             if 0 < self.option <= 5:
                 return self.option
-            print("Solo opciones de 1 - 5")
+            print("Only 1 - 5 options")
 
     def display_menu(self):
         """
@@ -46,11 +46,11 @@ class Students:
         """
         print("__________________________________________________")
         print("WELCOME TO THE MENU. CHOOSE AN OPTION")
-        print("1 - Cargar Alumnos")
-        print("2 - Listar Alumnos")
-        print("3 - Buscar Alumnos")
-        print("4 - Modificar Alumno")
-        print("5 - Finalizar programa")
+        print("1 - Add Names")
+        print("2 - List Names")
+        print("3 - Search Names")
+        print("4 - Modify Name")
+        print("5 - Exit Program")
         print("__________________________________________________")
 
     def handle_menu_action(self):
@@ -70,18 +70,18 @@ class Students:
             self.exit_program()
 
     def add_name(self):
-        name=self.get_valid_name("Ingrese nombre: ")
+        name=self.get_valid_name("Enter name: ")
         if name in self.names:
-            print("\nNombre ya existe")    
+            print("\nName already exists")    
         else:
             self.names.add(name)
-            print("\nNombre agregado correctamente")
+            print("\nName added successfully")
                
 
     def validate_name(self, name):
         return name.replace(" ", "").isalpha()
 
-    def get_name(self, msg="Ingrese nombre: "):
+    def get_name(self, msg="Enter name: "):
         name=input(msg).strip()
         return name
     
