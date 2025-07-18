@@ -122,31 +122,31 @@ class Students:
 
 
     def get_old_name(self):
-        old_name = self.get_valid_name("Ingrese nombre a buscar:")
+        old_name = self.get_valid_name("Enter name to search: ")
         return old_name
 
     def get_new_name(self):
-        new_name = self.get_valid_name("Ingrese nombre nuevo")
+        new_name = self.get_valid_name("Enter new name")
         return new_name
 
     def validate_old_and_new_names(self):
         old_name = self.get_old_name()
         
         if old_name in self.names:
-            print(f"\n{old_name} fue encontrado.")
+            print(f"\n{old_name} was found.")
             new_name = self.get_new_name()
             if new_name == old_name:
-                print("\nEl nombre nuevo es igual al nombre actual. No se realizará modificación.")
+                print("\nThe new name is the same as the current name. No changes were made.")
                 return None, None
             if new_name in self.names:
-                print(f"\n{new_name} esta usado. No se puede modificar.")
+                print(f"\n{new_name} already taken. Cannot be modified.")
                 return None, None
             else:
-                print("Nombre valido. Listo para agregar")
+                print("Valid name. Ready to be added.")
                 return old_name, new_name
 
         else:
-            print(f"\n{old_name} no fue encontrado")
+            print(f"\n{old_name} not found")
             return None, None
 
 
