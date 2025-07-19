@@ -53,7 +53,7 @@ Follow these steps to get a local copy of the project running on your machine:
 
 * **Implement Remove Name option:** Add functionality to delete existing name entries.
 
-* **Translate Interface to English:** Make the entire application (including prompts and messages) available in English.
+* **Translate Interface to English:** Make the entire application (including prompts and messages) available in English. ✅
 ---
 
 ## **Author**
